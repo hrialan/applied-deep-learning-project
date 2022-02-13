@@ -1,8 +1,8 @@
 kaggle.json
 *.zip
 *.h5
-/food/meta/*.txt
-/food/meta/*.json
+dataset/food/meta/meta/*.txt
+dataset/food/meta/meta/*.json
 # Created by https://www.toptal.com/developers/gitignore/api/python,macos,windows,images,visualstudio,jupyternotebooks
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,macos,windows,images,visualstudio,jupyternotebooks
 
