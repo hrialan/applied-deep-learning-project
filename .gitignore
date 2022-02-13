@@ -1,6 +1,8 @@
 kaggle.json
 *.zip
-
+*.h5
+*.txt
+*.json
 # Created by https://www.toptal.com/developers/gitignore/api/python,macos,windows,images,visualstudio,jupyternotebooks
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,macos,windows,images,visualstudio,jupyternotebooks
 
