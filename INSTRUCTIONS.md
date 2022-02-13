@@ -7,11 +7,7 @@ Dear students,
 
 Here is some information about the group project. We expect you to form groups of 4 people (3 may be possible as well, and we can make exceptions for groups of only 2). Your first assignment is to define the project, and the deadline is Sunday Feb 13:
 
-Create a slack channel with all members + Olivier + Charles. You can join our slack with the following invitation link:
-
-
-https://join.slack.com/t/dstelecom1420-npn9730/shared_invite/zt-11tspuwc2-SN8WWa425LYctrKwYfTYag
-
+Create a slack channel with all members + Olivier + Charles. [LINK SLACK ON MOODLE]
 
 Fill also this spreadsheet with the project information (name + group)
 
@@ -54,6 +50,5 @@ If you have no idea, feel free to ask suggestions telling us if you are more int
 
 Best regards,
 
-
-Olivier & Charles
+[]
 
