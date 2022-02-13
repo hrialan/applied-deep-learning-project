@@ -16,9 +16,10 @@ unzipped_dataset_dir_name = '/food'
 api = KaggleApi()
 api.authenticate()
 
+print("Downloading dataset ...")
+
 api.dataset_download_files(dataset, path, quiet=False)
  
-
 if not os.path.isdir(path + unzipped_dataset_dir_name):
 
     print("Extracting ...")
