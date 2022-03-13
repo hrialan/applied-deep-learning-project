@@ -6,11 +6,13 @@ import model
 @app.route("/", methods=['GET', 'POST'])
 def index():
     if request.method == 'POST':
-        prediction, probability = model.get_prediction(request.form['image_url'])
+        prediction, probability, warning = model.get_prediction(request.form['image_url'])
         
         return render_template('index.html', 
                                 prediction=prediction,
-                                probability=probability)
+                                probability=probability,
+                                warning=warning,
+                                img_url=request.form['image_url'])
 
     return render_template('index.html')
     
