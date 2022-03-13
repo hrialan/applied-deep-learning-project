@@ -26,7 +26,7 @@ def get_prediction(img_url, warning=None):
         score = predictions[0]
 
         print(
-            "This image most likely belongs to {} with a {:.2f} percent confidence."
+            "This image most likely belongs to {} with a {:.5f} percent confidence."
             .format(class_names[np.argmax(score)], 100 * np.max(score))
         )
         
