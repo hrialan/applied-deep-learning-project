@@ -16,7 +16,6 @@
             <p class="lead text-center">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus.</p>
             <p class="lead text-center"><a href="https://github.com/hrialan/applied-deep-learning-project">view project on github</a></p>
             </br>
-            </br>
         </div>
 
         <div class="row">
@@ -57,7 +56,6 @@
         <div class="row">
             </br>
             </br>
-            </br>
 
             <div class="col col-sm-3"></div>
             <div class="col col-sm-6 alert alert-info text-center" role="alert">
@@ -65,6 +63,15 @@
             </div>
             <div class="col col-sm-3"></div>
         </div>
+        {% if calories %}
+        <div class="row">
+        <div class="col col-sm-3"></div>
+        <div class="col col-sm-6 alert alert-success text-center" role="alert">
+            <p>The calories of this recipe are estimated at <strong>{{ calories }}</strong>  per 100g</p>
+        </div>
+        <div class="col col-sm-3"></div>
+    </div>
+        {% endif %}
         <div class="row">
             <div class="text-center">
                 <img src={{ img_url }} width="200" height="200">
