@@ -6,7 +6,7 @@ kaggle_credentials = json.load(open('./credentials/kaggle.json'))
 
 os.environ['KAGGLE_USERNAME'] = kaggle_credentials['username']
 os.environ['KAGGLE_KEY']      = kaggle_credentials['key']
- 
+
 from kaggle.api.kaggle_api_extended import KaggleApi
  
 dataset = 'kmader/food41'
