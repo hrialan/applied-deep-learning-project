@@ -3,13 +3,13 @@ from tensorflow import keras
 import numpy as np
 import requests
 import json
+import os
 
 def get_nutrition(recipe_name):
     api_url = 'https://api.calorieninjas.com/v1/nutrition?query='
     try: 
         query = recipe_name.replace('_', ' ')
     except AttributeError:
-        print("Error: NoneType for recipe name") 
         return None
 
     response = requests.get(api_url + query, headers={'X-Api-Key': 'Nc/Q87KbQA0LD0QbT7fUyQ==cPxr3NJhdeA7FpaS'})
@@ -17,7 +17,7 @@ def get_nutrition(recipe_name):
         text = response.text
         return json.loads(text)['items'][0]
     else:
-        print("Error:", response.status_code, response.text)
+        print("Warning:", response.status_code, response.text)
         return None
 
 
@@ -39,7 +39,6 @@ def get_prediction(img_url, warning=None):
         img_array = tf.keras.utils.img_to_array(img)
         img_array = img_array / 255.
         img_array = tf.expand_dims(img_array, 0) # Create a batch
-
         model = keras.models.load_model('trained_model.h5')
         predictions = model.predict(img_array)
         score = predictions[0]
@@ -49,6 +48,7 @@ def get_prediction(img_url, warning=None):
             .format(class_names[np.argmax(score)], 100 * np.max(score))
         )
         
+        os.remove(image_path)
         prediction = class_names[np.argmax(score)].replace('_', ' ')
         probability = round(100 * np.max(score), 3)
     else:
