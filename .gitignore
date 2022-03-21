@@ -40,7 +40,7 @@ dataset/**/*.json
 *.webp
 
 # Portable Network Graphics
-*.png
+dataset/**/*.png
 
 # Animated Portable Network Graphics
 *.apng
