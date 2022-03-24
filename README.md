@@ -25,7 +25,7 @@ There are __two types__ of notebook in the repo:
 ---
 ### Demo web app 
 
-<img src="other/webapp-screenshot.png" width="500">
+<img src="other/webapp-screenshot.png" width="700">
 
 We have developed a demo web application to test the generalization of the model on new images.  For the moment, the application works with our pre-trained model "inceptionV3". The application is linked to a nutrition API and gives the average calorie count of the recognized recipe. 
 
