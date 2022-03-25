@@ -21,6 +21,16 @@ There are __two types__ of notebook in the repo:
 
 - **Analysis notebooks :** These notebooks are further analyses of the results obtained with the previously trained models. They are much shorter to run and can be used to experiment with the results obtained with the different models. 
 
+---
+### Accuracy per model
+
+|                 | Train (80800 images) | Test (20200 images) | Kaggle link                                                    |
+|-----------------|----------------------|---------------------|----------------------------------------------------------------|
+| Custom model v2 | 0.3632               | 0.3206              | https://www.kaggle.com/code/hrialan/custom-model/notebook      |
+| Resnet 50       | 0.5344               | 0.5495              | https://www.kaggle.com/code/hrialan/resnet50-training/notebook |
+| Inception V3    | 0.8745               | 0.7548              | https://www.kaggle.com/code/hrialan/transfer-learning/notebook |
+| Efficient Net   | 0.90                 | 0.85                |                                                                |
+
 
 ---
 ### Demo web app 
