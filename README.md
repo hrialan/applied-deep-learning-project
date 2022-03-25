@@ -19,7 +19,7 @@ There are __two types__ of notebook in the repo:
 
 - **Training notebooks :** These notebooks contain the training codes of the different models we used. They were trained on Kaggle using a GPU. They are long to run, sometimes several hours were necessary. The models trained from these notebooks have been saved in the folder "saved_models/" and can be easily reused. 
 
-- **Analysis notebooks :** These notebooks are further analyses of the results obtained with the previously trained models. They are much shorter to run and can be used to experiment with the results obtained with the different models. 
+- **Analysis notebooks :** These notebooks are further analyses of the results obtained with the previously trained models. They are much shorter to run and can be used to experiment with the results obtained with the different models. We decided to focus our analysis on the inception V3 model, which is the one we used for the web app.
 
 ---
 ### Accuracy per model
