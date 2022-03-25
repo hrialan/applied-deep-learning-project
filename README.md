@@ -28,7 +28,7 @@ There are __two types__ of notebook in the repo:
 |-----------------|----------------------|---------------------|----------------------------------------------------------------|
 | Custom model v2 | 0.3632               | 0.3206              | https://www.kaggle.com/code/hrialan/custom-model/notebook      |
 | Resnet 50       | 0.5344               | 0.5495              | https://www.kaggle.com/code/hrialan/resnet50-training/notebook |
-| Inception V3    | 0.8745               | 0.7548              | https://www.kaggle.com/code/hrialan/transfer-learning/notebook |
+| Inception V3    | 0.8449               | 0.7548              | https://www.kaggle.com/code/hrialan/transfer-learning/notebook |
 | Efficient Net   | 0.90                 | 0.85                |                                                                |
 
 
