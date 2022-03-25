@@ -24,12 +24,12 @@ There are __two types__ of notebook in the repo:
 ---
 ### Accuracy per model
 
-|                 | Train (80800 images) | Test (20200 images) | Kaggle link                                                    |
-|-----------------|----------------------|---------------------|----------------------------------------------------------------|
-| Custom model v2 | 0.3632               | 0.3206              | https://www.kaggle.com/code/hrialan/custom-model/notebook      |
-| Resnet 50       | 0.5344               | 0.5495              | https://www.kaggle.com/code/hrialan/resnet50-training/notebook |
-| Inception V3    | 0.8449               | 0.7548              | https://www.kaggle.com/code/hrialan/transfer-learning/notebook |
-| Efficient Net   | 0.90                 | 0.85                |                                                                |
+|                 | Training time | Train (80800 images) | Test (20200 images) | Kaggle link                                                    |
+|-----------------|---------------|----------------------|---------------------|----------------------------------------------------------------|
+| Custom model v2 |  ~ 3 Hours    | 0.3632               | 0.3206              | https://www.kaggle.com/code/hrialan/custom-model/notebook      |
+| Resnet 50       |  ~ 4 Hours    | 0.5344               | 0.5495              | https://www.kaggle.com/code/hrialan/resnet50-training/notebook |
+| Inception V3    |  ~ 6 Hours    | 0.8449               | 0.7548              | https://www.kaggle.com/code/hrialan/transfer-learning/notebook |
+| Efficient Net   |               | 0.90                 | 0.85                |                                                                |
 
 
 ---
