@@ -1,3 +1,5 @@
+Authors : __Cyril Nérin - Hugo Rialan - Alexandre Perbet__
+
 # Applied Deep Learning project - M2 Data Science
 
 ## Food images classification
