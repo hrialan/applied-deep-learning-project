@@ -21,6 +21,8 @@ There are __two types__ of notebook in the repo:
 
 - **Analysis notebooks :** These notebooks are further analyses of the results obtained with the previously trained models. They are much shorter to run and can be used to experiment with the results obtained with the different models. We decided to focus our analysis on the inception V3 model, which is the one we used for the web app.
 
+As a first reading, we advise you to start with the notebook "training_custom_model_V2.ipynb" then take a look at "training_InceptionV3.ipynb" and finally end with "analysis_InceptionV3_result_global.ipynb".
+
 ---
 ### Accuracy per model
 
